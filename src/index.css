@@ -406,6 +406,7 @@ nav ul .active a:before {
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
+  cursor: pointer;
 }
 
 .post_card .likebtn svg {
