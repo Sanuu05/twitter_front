@@ -24,7 +24,7 @@ function Home({update}) {
         <Createpost res={update}/>
         <Row>
           {
-            followposts.map((val,i)=>{
+            followposts?.map((val,i)=>{
               return  <Posts val={val} res={update} />
             })
           }
