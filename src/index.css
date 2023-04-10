@@ -13,13 +13,15 @@
 .mtop {
   padding-top: 100px;
 }
-.top_part_left{
+
+.top_part_left {
   width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .signup {
 
   background-color: whitesmoke;
@@ -265,7 +267,8 @@ nav ul .active a:before {
 }
 
 #profilePic,
-#profilePicd,#profilePicd1 {
+#profilePicd,
+#profilePicd1 {
   display: none;
 }
 
@@ -398,7 +401,8 @@ nav ul .active a:before {
 
 }
 
-.post_card .likebtn {
+.post_card .likebtnx {
+  /* height: 10vh; */
   display: flex;
   justify-content: space-evenly;
   padding: 10px;
@@ -819,7 +823,7 @@ nav ul .active a:before {
 
 
   /* myaccount */
- 
+
   .top_part_left img {
     width: 100px;
     height: 100px;

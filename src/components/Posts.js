@@ -39,8 +39,10 @@ function Posts({ val, res }) {
         <div className='post_card_text'>
           <p>{val?.body}</p>
         </div>
-        <div className='likebtn'>
+        <div className='likebtnx'>
+        
           <span>{
+            
             val?.likes?.includes(user?._id)?<AiFillLike color='#009DF2' onClick={()=>dispatch(unlike({postId:val?._id}))} />:
             <AiOutlineLike onClick={()=>dispatch(like({postId:val?._id}))} />
             
